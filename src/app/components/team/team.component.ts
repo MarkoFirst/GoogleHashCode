@@ -16,7 +16,7 @@ export class TeamComponent implements OnInit {
       linkedin: 'vadimbabiichuck',
       mail: 'babiichuck.vadim@gmail.com',
       photo: 'Babiichuck.jpg',
-      stack: ['html', 'css', 'less', 'sass', 'typescript', 'vue', 'angular', 'rx']
+      stack: ['html', 'css', 'less', 'sass', 'typescript', 'vue', 'angular', 'rx', 'swift', 'golang']
     },
     {
       name: 'Sergey Semkov',
@@ -34,7 +34,7 @@ export class TeamComponent implements OnInit {
       linkedin: 'maksym-railian-732443101',
       mail: 'railianmaksym@gmail.com',
       photo: 'Railian.jpg',
-      stack: ['java', 'kotlin', 'rx', 'c_sharp']
+      stack: ['java', 'kotlin', 'rx', 'c_sharp', 'unity']
     },
     {
       name: 'Vladyslav Konovalchuk',

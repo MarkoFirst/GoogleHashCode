@@ -19,11 +19,15 @@
 
   .stack {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 310px;
 
     img {
-      display: block;
       width: 32px;
-      margin: 5px;
+      height: 32px;
+      margin: 3px 3px 3px 5px;
 
       cursor: help;
     }
