@@ -11,7 +11,9 @@ h1 {
   flex-wrap: wrap;
 
   app-teammate {
-    margin: 50px;
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
 
     &:last-child {
       margin-bottom: 100px;
