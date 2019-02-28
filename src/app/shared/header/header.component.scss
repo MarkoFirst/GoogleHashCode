@@ -44,12 +44,8 @@
     height: 47px;
     .tabs {
       a div {
-        p {
-          display: none;
-        }
-        i {
-          display: block;
-        }
+        p { display: none; }
+        i { display: block; }
 
         &.left-header-blocks {
           width: 34px;

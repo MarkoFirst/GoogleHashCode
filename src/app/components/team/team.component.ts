@@ -18,7 +18,7 @@ export class TeamComponent implements OnInit {
       photo: 'Babiichuck.jpg'
     },
     {
-      name: 'Semkov Sergey',
+      name: 'Sergey Semkov',
       age: '15.05.1997',
       git: 'Sema15',
       linkedin: 'sergey-semkov-794495158',
