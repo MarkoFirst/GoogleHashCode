@@ -60,4 +60,16 @@ export class MainComponent implements OnInit {
       return {orientation: array[0], tagsCount: (array.length - 2), tags: array.filter((tag, index) => index > 1)};
     });
   }
+
+  calculateSimilarTagsCount(item: IPicture, nextItem: IPicture): number {
+    let similarTagsCount = 0;
+
+    item.tags.forEach(value => {
+      if (nextItem.tags.includes(value)) {
+        similarTagsCount += 1;
+      }
+    });
+
+    return similarTagsCount;
+  }
 }
