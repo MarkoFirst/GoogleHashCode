@@ -17,6 +17,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { TeamComponent } from './components/team/team.component';
 import { TeammateComponent } from './components/teammate/teammate.component';
+import {HttpClientModule} from '@angular/common/http';
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyC8yPo-8WJqrU_amDuDv8f3d-1zh2tGSkE',
@@ -46,7 +47,8 @@ export const firebaseConfig = {
     AngularFireStorageModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     DataBaseService,
