@@ -9,6 +9,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-height: 500px;
 
   app-teammate {
     display: flex;

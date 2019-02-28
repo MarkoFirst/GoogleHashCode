@@ -5,4 +5,5 @@ export interface ITeammate {
   git: string;
   linkedin: string;
   photo: string;
+  stack: string[];
 }

@@ -15,7 +15,8 @@ export class TeamComponent implements OnInit {
       git: 'MarkoFirst',
       linkedin: 'vadimbabiichuck',
       mail: 'babiichuck.vadim@gmail.com',
-      photo: 'Babiichuck.jpg'
+      photo: 'Babiichuck.jpg',
+      stack: ['html', 'css', 'less', 'sass', 'typescript', 'vue', 'angular', 'rx']
     },
     {
       name: 'Sergey Semkov',
@@ -23,7 +24,8 @@ export class TeamComponent implements OnInit {
       git: 'Sema15',
       linkedin: 'sergey-semkov-794495158',
       mail: 'semkovserg05@gmail.com',
-      photo: 'SemaS.jpg'
+      photo: 'SemaS.jpg',
+      stack: ['html', 'css', 'javascript', 'sass']
     },
     {
       name: 'Maksym Railian',
@@ -31,7 +33,8 @@ export class TeamComponent implements OnInit {
       git: 'railianmaksym',
       linkedin: 'maksym-railian-732443101',
       mail: 'railianmaksym@gmail.com',
-      photo: 'Railian.jpg'
+      photo: 'Railian.jpg',
+      stack: ['java', 'kotlin', 'rx', 'c_sharp']
     },
     {
       name: 'Vladyslav Konovalchuk',
@@ -39,7 +42,8 @@ export class TeamComponent implements OnInit {
       git: 'Vlad-Konovalchuk',
       linkedin: 'vladyslav-konovalchuk',
       mail: 'berlitio600@gmail.com',
-      photo: 'Konovalchuk.jpg'
+      photo: 'Konovalchuk.jpg',
+      stack: ['html', 'css', 'sass', 'typescript', 'vue', 'react', 'redux']
     }
   ];
 

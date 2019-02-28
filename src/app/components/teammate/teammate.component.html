@@ -1,4 +1,7 @@
 <div class="info">
+  <div class="stack">
+    <img *ngFor="let icon of teammate.stack" src="assets/technologies/{{icon}}.png" [alt]="icon" [title]="icon">
+  </div>
   <img src="assets/{{teammate.photo}}" alt="" width="300">
   <h2>{{teammate.name}}</h2>
   <h3>{{teammate.age}}</h3>

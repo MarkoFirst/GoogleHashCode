@@ -16,4 +16,16 @@
       margin: 8px;
     }
   }
+
+  .stack {
+    position: absolute;
+
+    img {
+      display: block;
+      width: 32px;
+      margin: 5px;
+
+      cursor: help;
+    }
+  }
 }
